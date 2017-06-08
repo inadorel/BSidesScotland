@@ -33,7 +33,7 @@ namespace BSidesScotland
         {
             //verify user input - if invalid return true
 
-            person myperson = new person();
+            Person myperson = new Person();
             RegexUtilities myreg = new RegexUtilities();
 
             //Combo Box for Title

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BSidesScotland
 {
-    public class person
+    public class Person
     {
         private int ID;
         private string firstName;
@@ -15,14 +15,14 @@ namespace BSidesScotland
         private string mobile;
         private string title;
         private string category;
-        public person(string first, string last )
+        public Person(string first, string last )
         {
             this.firstName = first;
             this.surName = last;
 
         }
 
-        public person()
+        public Person()
         {
 
         }
